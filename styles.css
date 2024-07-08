@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3C493F;
+}
+
+#container{
+    background-color: #B3BFB8;
+    height: 22rem;
+    width: 20rem;
+    padding: 2rem;
+    border: 2px solid none;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: 600;
+}
+#title{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+form select,button,input{
+    width: 100%;
+    border: none;
+    outline: none;  /*remove the focus outline that appears around an element when it is clicked/tabbed*/
+    border-radius: 1rem;
+}
+form input{
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 2rem;
+    padding-left: 0.65rem;
+}
+
+#amountDiv p{
+    margin-bottom: 0.5rem;
+    margin-left: 0.25rem;
+}
+
+#dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem;
+}
+#dropdown i{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+.select-country img{
+    max-width: 2rem;    /*prevents the element from growing wider than the specified value*/
+}
+.select-country select{
+    height: 1.5rem;
+    width: auto;    /*sets the width of the element to its default value, allowing it to size itself based on its content and the context in which it appears*/
+    margin: 0.5rem;
+    border: 1px solid lightgray;
+    padding-left: 0.25rem;
+}
+.select-country{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7rem;
+}
+
+#result-msg{
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 1.5rem;
+    display: none;
+}
+
+#submit-btn{
+    height: 2rem;
+    background-color: #3C493F;
+    color: white;
+    font-size: 1rem;
+}
+
+button,select{
+    cursor: pointer;
+}
