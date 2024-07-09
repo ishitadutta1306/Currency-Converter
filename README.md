@@ -39,6 +39,4 @@ Click on [this](https://ishitadutta1306.github.io/Currency-Converter/) link.
 ## 🌐 API
 This project uses a currency converter API to fetch the latest exchange rates. The base URL for the API is `https://latest.currency-api.pages.dev/v1/currencies/`.
 
-## 🙏Credits
-This project was created by [Ishita Dutta](https://github.com/ishitadutta1306). Feel free to contribute by submitting pull requests or reporting issues. 
-
+#### This project was created by [Ishita Dutta](https://github.com/ishitadutta1306). Feel free to contribute by submitting pull requests or reporting issues. 
